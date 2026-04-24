@@ -1,0 +1,211 @@
+{
+  "medications": [
+    {
+      "med_id": "M001",
+      "name": "Acetaminophen (Tylenol)",
+      "category": "Analgesic / Antipyretic",
+      "otc": true,
+      "used_for": ["fever", "mild to moderate pain", "headache", "cold", "flu", "sore throat"],
+      "conditions_treated": ["Common Cold", "Influenza (Flu)", "Migraine", "Headache"],
+      "dosage": {
+        "adults": "325–650 mg every 4–6 hours as needed. Max 3,000 mg/day.",
+        "children": "10–15 mg/kg every 4–6 hours. Do not exceed 5 doses in 24 hours."
+      },
+      "side_effects": ["Rare at recommended doses", "Liver damage with overdose or alcohol use"],
+      "warnings": [
+        "Do not exceed recommended dose",
+        "Avoid alcohol while taking this medication",
+        "Check other medications for hidden acetaminophen (e.g. cold remedies)"
+      ],
+      "interactions": ["Warfarin (blood thinner)", "Alcohol"],
+      "available_forms": ["tablet", "capsule", "liquid", "suppository"]
+    },
+    {
+      "med_id": "M002",
+      "name": "Ibuprofen (Advil, Motrin)",
+      "category": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+      "otc": true,
+      "used_for": ["pain", "inflammation", "fever", "headache", "muscle aches", "menstrual cramps"],
+      "conditions_treated": ["Common Cold", "Influenza (Flu)", "Migraine", "Allergic Rhinitis"],
+      "dosage": {
+        "adults": "200–400 mg every 4–6 hours. Max 1,200 mg/day (OTC). Up to 3,200 mg/day under medical supervision.",
+        "children": "5–10 mg/kg every 6–8 hours. Not for infants under 6 months."
+      },
+      "side_effects": ["Stomach upset", "Nausea", "Heartburn", "Dizziness", "Increased blood pressure"],
+      "warnings": [
+        "Take with food to reduce stomach upset",
+        "Avoid if you have kidney disease, ulcers, or are on blood thinners",
+        "Avoid in last trimester of pregnancy",
+        "Can increase risk of heart attack and stroke with long-term use"
+      ],
+      "interactions": ["Aspirin", "Warfarin", "ACE inhibitors", "Lithium", "Diuretics"],
+      "available_forms": ["tablet", "capsule", "liquid gel", "suspension"]
+    },
+    {
+      "med_id": "M003",
+      "name": "Loratadine (Claritin)",
+      "category": "Antihistamine (Non-drowsy)",
+      "otc": true,
+      "used_for": ["allergies", "hay fever", "runny nose", "itchy eyes", "sneezing", "hives"],
+      "conditions_treated": ["Allergic Rhinitis"],
+      "dosage": {
+        "adults": "10 mg once daily.",
+        "children": "Children 6+: 10 mg once daily. Children 2–5: 5 mg once daily."
+      },
+      "side_effects": ["Headache", "Dry mouth", "Fatigue (uncommon)"],
+      "warnings": [
+        "Non-drowsy but may still cause drowsiness in some people",
+        "Use caution when driving until you know how it affects you",
+        "Consult doctor if you have liver or kidney disease"
+      ],
+      "interactions": ["Ketoconazole", "Erythromycin", "Cimetidine"],
+      "available_forms": ["tablet", "liquid", "dissolving tablet"]
+    },
+    {
+      "med_id": "M004",
+      "name": "Diphenhydramine (Benadryl)",
+      "category": "Antihistamine (Sedating)",
+      "otc": true,
+      "used_for": ["allergies", "itching", "sleep aid", "motion sickness", "cold symptoms"],
+      "conditions_treated": ["Allergic Rhinitis", "Common Cold"],
+      "dosage": {
+        "adults": "25–50 mg every 4–6 hours. Max 300 mg/day.",
+        "children": "Children 6–11: 12.5–25 mg every 4–6 hours. Not recommended under 6 without doctor's advice."
+      },
+      "side_effects": ["Drowsiness", "Dry mouth", "Blurred vision", "Urinary retention", "Constipation"],
+      "warnings": [
+        "Causes significant drowsiness — do not drive or operate machinery",
+        "Avoid alcohol",
+        "Avoid in elderly patients (risk of falls, confusion)",
+        "Do not use as a long-term sleep aid"
+      ],
+      "interactions": ["Alcohol", "Sedatives", "MAO inhibitors", "Anticholinergic drugs"],
+      "available_forms": ["tablet", "capsule", "liquid", "topical cream"]
+    },
+    {
+      "med_id": "M005",
+      "name": "Ondansetron (Zofran)",
+      "category": "Antiemetic (Anti-nausea)",
+      "otc": false,
+      "used_for": ["nausea", "vomiting", "motion sickness", "chemotherapy-induced nausea"],
+      "conditions_treated": ["Gastroenteritis (Stomach Flu)", "Migraine"],
+      "dosage": {
+        "adults": "4–8 mg every 8 hours as needed. Prescription only.",
+        "children": "Dose varies by weight and age. Always follow physician instructions."
+      },
+      "side_effects": ["Headache", "Constipation", "Fatigue", "Dizziness"],
+      "warnings": [
+        "Prescription only — do not use without medical supervision",
+        "Can affect heart rhythm (QT prolongation) — inform doctor of heart conditions",
+        "Not recommended in first trimester of pregnancy without physician approval"
+      ],
+      "interactions": ["Apomorphine", "Serotonergic drugs", "Tramadol"],
+      "available_forms": ["tablet", "dissolving tablet", "injection", "liquid"]
+    },
+    {
+      "med_id": "M006",
+      "name": "Amoxicillin",
+      "category": "Antibiotic (Penicillin-type)",
+      "otc": false,
+      "used_for": ["bacterial infections", "UTI", "ear infections", "strep throat", "pneumonia"],
+      "conditions_treated": ["Urinary Tract Infection (UTI)"],
+      "dosage": {
+        "adults": "250–500 mg every 8 hours, or 500–875 mg every 12 hours, for 7–10 days. Prescription only.",
+        "children": "25–45 mg/kg/day divided every 8–12 hours. Always follow physician instructions."
+      },
+      "side_effects": ["Diarrhea", "Stomach upset", "Nausea", "Rash", "Allergic reaction (rare)"],
+      "warnings": [
+        "Prescription only",
+        "Inform doctor of penicillin allergy",
+        "Complete the full course even if feeling better",
+        "Can reduce effectiveness of oral contraceptives"
+      ],
+      "interactions": ["Warfarin", "Methotrexate", "Probenecid", "Oral contraceptives"],
+      "available_forms": ["capsule", "tablet", "liquid suspension"]
+    },
+    {
+      "med_id": "M007",
+      "name": "Sumatriptan (Imitrex)",
+      "category": "Triptan (Migraine-specific)",
+      "otc": false,
+      "used_for": ["migraine", "cluster headaches"],
+      "conditions_treated": ["Migraine"],
+      "dosage": {
+        "adults": "25–100 mg at onset. May repeat once after 2 hours. Max 200 mg/day. Prescription only.",
+        "children": "Not recommended under 18 without specialist guidance."
+      },
+      "side_effects": ["Tingling", "Flushing", "Dizziness", "Pressure/tightness in chest", "Drowsiness"],
+      "warnings": [
+        "Prescription only",
+        "Do not use if you have heart disease, uncontrolled hypertension, or history of stroke",
+        "Do not combine with MAO inhibitors or other triptans within 24 hours",
+        "Most effective when taken at first sign of migraine"
+      ],
+      "interactions": ["MAO inhibitors", "SSRIs/SNRIs", "Ergotamine", "Other triptans"],
+      "available_forms": ["tablet", "nasal spray", "injection"]
+    },
+    {
+      "med_id": "M008",
+      "name": "Oral Rehydration Salts (Pedialyte / Gastrolyte)",
+      "category": "Electrolyte Replenisher",
+      "otc": true,
+      "used_for": ["dehydration", "diarrhea", "vomiting", "gastroenteritis"],
+      "conditions_treated": ["Gastroenteritis (Stomach Flu)"],
+      "dosage": {
+        "adults": "Drink as directed on package. Generally 200–400 mL after each loose stool.",
+        "children": "5–10 mL/kg after each loose stool. Consult package or doctor."
+      },
+      "side_effects": ["Nausea (from taste)", "Rare — generally very safe"],
+      "warnings": [
+        "Not a replacement for medical care in severe dehydration",
+        "Seek medical help if unable to keep fluids down",
+        "Do not give plain water to infants in place of ORS"
+      ],
+      "interactions": [],
+      "available_forms": ["powder sachet", "premixed liquid", "popsicle"]
+    },
+    {
+      "med_id": "M009",
+      "name": "Metformin",
+      "category": "Antidiabetic (Biguanide)",
+      "otc": false,
+      "used_for": ["Type 2 diabetes", "blood sugar control", "insulin resistance"],
+      "conditions_treated": ["Type 2 Diabetes (Hyperglycemia episode)"],
+      "dosage": {
+        "adults": "500 mg twice daily or 850 mg once daily with meals. Titrated up slowly. Prescription only.",
+        "children": "10 years and older: 500 mg twice daily. Always follow physician instructions."
+      },
+      "side_effects": ["Nausea", "Diarrhea", "Stomach upset", "Lactic acidosis (rare but serious)"],
+      "warnings": [
+        "Prescription only",
+        "Hold before contrast dye procedures (CT scan)",
+        "Avoid excess alcohol",
+        "Not for use in severe kidney or liver disease"
+      ],
+      "interactions": ["Alcohol", "Contrast dyes", "Cimetidine", "Carbonic anhydrase inhibitors"],
+      "available_forms": ["tablet", "extended-release tablet", "liquid"]
+    },
+    {
+      "med_id": "M010",
+      "name": "Lorazepam (Ativan)",
+      "category": "Benzodiazepine (Anxiolytic)",
+      "otc": false,
+      "used_for": ["anxiety", "panic attacks", "insomnia", "seizures"],
+      "conditions_treated": ["Anxiety / Panic Attack"],
+      "dosage": {
+        "adults": "0.5–2 mg 2–3 times daily as needed. Prescription only.",
+        "children": "Not typically recommended for children for anxiety. Always follow physician instructions."
+      },
+      "side_effects": ["Drowsiness", "Dizziness", "Weakness", "Dependence with long-term use"],
+      "warnings": [
+        "Prescription only — controlled substance",
+        "High risk of dependence and withdrawal",
+        "Do not stop suddenly without physician guidance",
+        "Avoid alcohol and other CNS depressants",
+        "Do not drive or operate machinery"
+      ],
+      "interactions": ["Alcohol", "Opioids", "Other CNS depressants", "Antidepressants"],
+      "available_forms": ["tablet", "injection", "liquid"]
+    }
+  ]
+}

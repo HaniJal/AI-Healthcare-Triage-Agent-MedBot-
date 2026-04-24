@@ -1,0 +1,162 @@
+{
+  "conditions": [
+    {
+      "condition_id": "C001",
+      "name": "Common Cold",
+      "severity": "mild",
+      "urgency_level": 1,
+      "matching_symptoms": ["runny nose", "sneezing", "sore throat", "mild cough", "congestion", "mild fever", "fatigue"],
+      "description": "A viral infection of the upper respiratory tract. Usually resolves on its own within 7-10 days.",
+      "recommended_action": "Rest, stay hydrated, and use over-the-counter remedies for symptom relief.",
+      "see_doctor_if": ["Fever above 39°C (102°F)", "Symptoms lasting more than 10 days", "Difficulty breathing"],
+      "home_care_tips": [
+        "Drink plenty of fluids (water, herbal tea, broth)",
+        "Get adequate rest",
+        "Use saline nasal spray for congestion",
+        "Gargle warm salt water for sore throat"
+      ]
+    },
+    {
+      "condition_id": "C002",
+      "name": "Influenza (Flu)",
+      "severity": "moderate",
+      "urgency_level": 2,
+      "matching_symptoms": ["high fever", "severe body aches", "chills", "fatigue", "headache", "dry cough", "sore throat", "runny nose"],
+      "description": "A contagious respiratory illness caused by influenza viruses. More severe than the common cold.",
+      "recommended_action": "Rest, hydrate, and consider antiviral medication if caught early. Avoid contact with others.",
+      "see_doctor_if": ["Difficulty breathing", "Persistent chest pain", "Confusion", "Severe vomiting", "High-risk groups (elderly, pregnant, immunocompromised)"],
+      "home_care_tips": [
+        "Stay home and rest",
+        "Take fever-reducing medication (acetaminophen or ibuprofen)",
+        "Drink lots of fluids",
+        "Use a humidifier"
+      ]
+    },
+    {
+      "condition_id": "C003",
+      "name": "Migraine",
+      "severity": "moderate",
+      "urgency_level": 2,
+      "matching_symptoms": ["severe headache", "nausea", "vomiting", "sensitivity to light", "sensitivity to sound", "throbbing pain", "visual disturbances"],
+      "description": "A neurological condition causing intense, debilitating headaches often accompanied by sensory disturbances.",
+      "recommended_action": "Rest in a quiet, dark room. Take prescribed or OTC migraine medication at onset.",
+      "see_doctor_if": ["Worst headache of your life", "Headache with fever and stiff neck", "Sudden onset severe headache", "Headache after head injury"],
+      "home_care_tips": [
+        "Lie down in a dark, quiet room",
+        "Apply cold or warm compress to head/neck",
+        "Stay hydrated",
+        "Avoid known triggers (bright lights, strong smells)"
+      ]
+    },
+    {
+      "condition_id": "C004",
+      "name": "Gastroenteritis (Stomach Flu)",
+      "severity": "moderate",
+      "urgency_level": 2,
+      "matching_symptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps", "abdominal pain", "mild fever", "fatigue", "loss of appetite"],
+      "description": "Inflammation of the stomach and intestines, usually caused by a viral or bacterial infection.",
+      "recommended_action": "Focus on staying hydrated. Eat bland foods once you can tolerate them. Rest.",
+      "see_doctor_if": ["Signs of dehydration (dry mouth, no urination, dizziness)", "Blood in stool or vomit", "High fever", "Symptoms lasting more than 3 days"],
+      "home_care_tips": [
+        "Sip clear fluids frequently (water, broth, electrolyte drinks)",
+        "Follow the BRAT diet (Bananas, Rice, Applesauce, Toast)",
+        "Avoid dairy, fatty, and spicy foods",
+        "Rest as much as possible"
+      ]
+    },
+    {
+      "condition_id": "C005",
+      "name": "Allergic Rhinitis",
+      "severity": "mild",
+      "urgency_level": 1,
+      "matching_symptoms": ["sneezing", "runny nose", "itchy eyes", "watery eyes", "nasal congestion", "itchy nose", "postnasal drip"],
+      "description": "An allergic response causing cold-like symptoms triggered by allergens such as pollen, dust mites, or pet dander.",
+      "recommended_action": "Avoid known allergens. Antihistamines and nasal corticosteroids can provide relief.",
+      "see_doctor_if": ["Symptoms significantly affecting quality of life", "OTC medications not working", "Frequent sinus infections"],
+      "home_care_tips": [
+        "Keep windows closed during high-pollen seasons",
+        "Use air purifiers indoors",
+        "Shower after outdoor activities",
+        "Wear sunglasses outdoors to protect eyes"
+      ]
+    },
+    {
+      "condition_id": "C006",
+      "name": "Urinary Tract Infection (UTI)",
+      "severity": "moderate",
+      "urgency_level": 3,
+      "matching_symptoms": ["burning urination", "frequent urination", "cloudy urine", "strong-smelling urine", "pelvic pain", "lower back pain", "mild fever"],
+      "description": "A bacterial infection affecting any part of the urinary system. More common in women.",
+      "recommended_action": "See a doctor promptly for antibiotic treatment. Drink plenty of water.",
+      "see_doctor_if": ["High fever with chills", "Back or side pain (possible kidney infection)", "Symptoms in a man", "Pregnancy", "Symptoms not improving after 2 days of antibiotics"],
+      "home_care_tips": [
+        "Drink plenty of water to flush bacteria",
+        "Avoid caffeine, alcohol, and spicy foods",
+        "Use a heating pad on your abdomen",
+        "Do not delay seeing a doctor — antibiotics are usually required"
+      ]
+    },
+    {
+      "condition_id": "C007",
+      "name": "Hypertensive Crisis",
+      "severity": "severe",
+      "urgency_level": 5,
+      "matching_symptoms": ["severe headache", "chest pain", "shortness of breath", "vision changes", "nosebleed", "anxiety", "confusion"],
+      "description": "A sudden, severe increase in blood pressure that can lead to stroke or heart attack if untreated.",
+      "recommended_action": "CALL 911 OR GO TO THE EMERGENCY ROOM IMMEDIATELY. This is a medical emergency.",
+      "see_doctor_if": ["Any of these symptoms — go to ER immediately"],
+      "home_care_tips": [
+        "Do NOT wait — seek emergency care immediately",
+        "Do not drive yourself",
+        "Call 911"
+      ]
+    },
+    {
+      "condition_id": "C008",
+      "name": "Anxiety / Panic Attack",
+      "severity": "moderate",
+      "urgency_level": 2,
+      "matching_symptoms": ["rapid heartbeat", "shortness of breath", "chest tightness", "dizziness", "sweating", "trembling", "fear", "numbness", "nausea"],
+      "description": "Intense episodes of fear or discomfort that trigger severe physical reactions. Can mimic heart attack.",
+      "recommended_action": "Practice deep breathing and grounding techniques. Seek mental health support.",
+      "see_doctor_if": ["First time experiencing these symptoms (rule out cardiac cause)", "Attacks are frequent or worsening", "Unable to function in daily life"],
+      "home_care_tips": [
+        "Practice 4-7-8 breathing (inhale 4s, hold 7s, exhale 8s)",
+        "Ground yourself using the 5-4-3-2-1 technique",
+        "Move to a quiet, calm space",
+        "Remind yourself the attack will pass"
+      ]
+    },
+    {
+      "condition_id": "C009",
+      "name": "Appendicitis",
+      "severity": "severe",
+      "urgency_level": 5,
+      "matching_symptoms": ["severe abdominal pain", "pain around navel moving to lower right", "nausea", "vomiting", "fever", "loss of appetite", "abdominal rigidity"],
+      "description": "Inflammation of the appendix. Requires urgent surgical treatment.",
+      "recommended_action": "GO TO THE EMERGENCY ROOM IMMEDIATELY. Do not eat or drink anything.",
+      "see_doctor_if": ["Any suspicion of appendicitis — go to ER immediately"],
+      "home_care_tips": [
+        "Do not take pain medication before being evaluated — it can mask symptoms",
+        "Do not apply heat to the abdomen",
+        "Call 911 or go to the ER immediately"
+      ]
+    },
+    {
+      "condition_id": "C010",
+      "name": "Type 2 Diabetes (Hyperglycemia episode)",
+      "severity": "moderate",
+      "urgency_level": 3,
+      "matching_symptoms": ["excessive thirst", "frequent urination", "blurred vision", "fatigue", "slow healing wounds", "frequent infections", "numbness in hands or feet"],
+      "description": "Symptoms may indicate uncontrolled blood sugar. Requires medical evaluation and lifestyle management.",
+      "recommended_action": "Schedule an appointment with your doctor for blood glucose testing.",
+      "see_doctor_if": ["Fruity breath odor", "Extreme fatigue", "Vomiting", "Rapid breathing — these indicate diabetic ketoacidosis, a medical emergency"],
+      "home_care_tips": [
+        "Monitor blood sugar if you have a glucometer",
+        "Stay hydrated",
+        "Avoid sugary foods and drinks",
+        "Contact your doctor promptly"
+      ]
+    }
+  ]
+}
